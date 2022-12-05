@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <h1>Criptografia com base na Cifra de César</h1>
+    <form>
+      <div class="field">
+        <label>Intervalo/Chave</label>
+        <input id="chave" type="number" />
+      </div>
+      <div class="field">
+        <label>Texto</label>
+        <input id="text" type="text" />
+      </div>
+    </form>
+    <div class="choose">
+      <label>Descriptografar?</label>
+      <input id="choose" type="checkbox" />
+    </div>
+    <button onclick="calculate()">Concluir</button>
+    <div id="result"></div>
+    <script src="./script.js"></script>
+  </body>
+</html>
